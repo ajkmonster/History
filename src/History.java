@@ -12,8 +12,8 @@ public class History {
         Scanner key1 = new Scanner(System.in);
         String y = key1.next();
         if (y.equalsIgnoreCase("history")) {
-            for (String s: arr){
-                System.out.println(s);
+            for (x=9;x>=0;x--){
+                System.out.println(arr[x]);
             }
         }
     }
